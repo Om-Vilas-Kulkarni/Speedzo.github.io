@@ -47,7 +47,7 @@ body {
 
 .navbar {
     
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
 
@@ -264,7 +264,6 @@ main section div h3{
     width:200px;
     font-size:1.2rem;
 }
-
 .btnsm{
     font-size:1.3rem;
     width:78px;
