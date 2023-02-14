@@ -272,6 +272,7 @@ main section div h3{
 
 /*Footer*/
 footer{
+    width:100%;
     background-color: black;
     color:white;
     display:flex;
@@ -283,6 +284,16 @@ footer h3{
     margin:0;
     padding-top:15px;
 }
+
+#aboutf{
+    display:flex;
+    width:100%;
+ }
+
+ footer p{
+    margin:10px;
+
+ }
 
 footer p i{
     margin:5px;
@@ -305,6 +316,45 @@ footer p i{
     color:rgb(30, 213, 30);
 
 }
+
+/*About Us*/
+ #aboutpage{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+ }
+
+ #aboutpage h2{
+    margin:15px;
+    font-size: 2rem;
+ }
+
+ #aboutpage p{
+    font-size:1.2rem;
+    text-align:center;
+    margin:15px;
+ }
+
+ #abinside{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+ }
+
+ @media (min-width:384px) and (max-width:456px){
+    #abinside{
+        margin-top:90px;
+    }
+    
+ }
+
+ @media (max-width:384px){
+    #abinside{
+        margin-top:100px;
+    }
+ }
 
 
 
