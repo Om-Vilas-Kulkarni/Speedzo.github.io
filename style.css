@@ -179,6 +179,7 @@ main section{
 }
 
 main section div{
+    box-shadow:2px 5px 10px grey;
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
